@@ -50,10 +50,10 @@ export default function Home() {
           <Cards
             title="Tentang Aplikasi"
             description="Formulir untuk pendaftaran baru warga RT 003"
-            onPress={() => router.push("/dashboard")}
+            onPress={() => router.push("/about")}
           />
         </View>
-        <View className="fixed bottom-8 sm:bottom-2 sm:flex sm:justify-center sm:w-full sm:pb-10 drop-shadow-md">
+        <View className="fixed bottom-8 sm:bottom-2 sm:flex sm:justify-center sm:w-full drop-shadow-md">
           <Text className="text-white text-lg sm:text-lg font-semibold">
             PDW-03 Project, created by{" "}
             <Link
