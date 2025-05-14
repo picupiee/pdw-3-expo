@@ -10,7 +10,7 @@ export default function NewData() {
     blockNum: "",
     houseNum: "",
     fullName: "",
-    totalPenghuni: "",
+    totalPenghuni: "0",
     dewasaL: "",
     dewasaP: "",
     anakL: "",
@@ -88,9 +88,9 @@ export default function NewData() {
         </View>
 
         <View className="flex flex-col items-center mb-2">
-          <Text className="text-lg font-semibold">Nama Penghuni Rumah</Text>
+          <Text className="text-lg font-semibold">Nama Lengkap</Text>
           <TextInput
-            placeholder="Nama Lengkap"
+            placeholder="Isi nama lengkap anda"
             className="text-lg text-center rounded bg-white h-10 px-10 placeholder:text-gray-300"
             value={formData.fullName}
             onChangeText={(value) => handleChange("fullName", value)}

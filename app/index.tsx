@@ -25,38 +25,32 @@ export default function Home() {
           <Cards
             title="Rangkuman Data"
             description="Rangkuman data terkait penghuni di lingkungan RT 003"
-            icons="query-stats"
             onPress={() => router.push("/summary")}
           />
           <Cards
             title="Dashboard"
             description="Laman khusus untuk pengurus RT 003"
             onPress={() => router.push("/dashboard")}
-            icons="space-dashboard"
           />
           <Cards
             title="Daftar Warga"
             description="Formulir untuk pendaftaran baru warga RT 003"
             onPress={() => router.push("/new-entry")}
-            icons="group-add"
           />
           <Cards
             title="Laporan Warga"
             description="Formulir untuk pendaftaran baru warga RT 003"
             onPress={() => router.push("/dashboard")}
-            icons="report"
           />
           <Cards
             title="Kritik & Saran"
             description="Formulir untuk pendaftaran baru warga RT 003"
             onPress={() => router.push("/dashboard")}
-            icons="feedback"
           />
           <Cards
             title="Tentang Aplikasi"
             description="Formulir untuk pendaftaran baru warga RT 003"
             onPress={() => router.push("/dashboard")}
-            icons="info"
           />
         </View>
         <View className="fixed bottom-8 sm:bottom-2 sm:flex sm:justify-center sm:w-full sm:pb-10 drop-shadow-md">
