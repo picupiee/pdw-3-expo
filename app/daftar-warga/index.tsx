@@ -198,7 +198,7 @@ export default function NewData() {
           </Pressable>
         </View>
         <Pressable
-          onPress={() => router.dismissTo("/")}
+          onPress={() => router.replace("/")}
           className="bg-green-600 px-4 py-2 rounded mt-2 self-center"
         >
           <Text className="text-white text-lg font-semibold text-center">

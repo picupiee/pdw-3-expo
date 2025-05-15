@@ -25,7 +25,7 @@ export default function Home() {
           <Cards
             title="Rangkuman Data"
             description="Rangkuman data terkait penghuni di lingkungan RT 003"
-            onPress={() => router.push("/summary")}
+            onPress={() => router.push("/data-summary")}
           />
           <Cards
             title="Dashboard"
@@ -35,17 +35,17 @@ export default function Home() {
           <Cards
             title="Daftar Warga"
             description="Formulir untuk pendaftaran baru warga RT 003"
-            onPress={() => router.push("/new-entry")}
+            onPress={() => router.push("/daftar-warga")}
           />
           <Cards
             title="Laporan Warga"
             description="Formulir untuk pendaftaran baru warga RT 003"
-            onPress={() => router.push("/dashboard")}
+            onPress={() => router.push("/laporan-warga")}
           />
           <Cards
             title="Kritik & Saran"
             description="Formulir untuk pendaftaran baru warga RT 003"
-            onPress={() => router.push("/dashboard")}
+            onPress={() => router.push("/kritik-saran")}
           />
           <Cards
             title="Tentang Aplikasi"
