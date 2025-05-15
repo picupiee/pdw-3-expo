@@ -24,7 +24,7 @@ export default function Home() {
         <View className="flex flex-row flex-wrap mt-4 gap-2 px-0 justify-evenly sm:justify-center sm:self-center">
           <Cards
             title="Rangkuman Data"
-            description="Rangkuman data terkait penghuni di lingkungan RT 003"
+            description="Rangkuman data di lingkungan RT 003"
             onPress={() => router.push("/data-summary")}
           />
           <Cards
@@ -39,17 +39,17 @@ export default function Home() {
           />
           <Cards
             title="Laporan Warga"
-            description="Formulir untuk pendaftaran baru warga RT 003"
+            description="Buat Laporan Secara Mandiri"
             onPress={() => router.push("/laporan-warga")}
           />
           <Cards
             title="Kritik & Saran"
-            description="Formulir untuk pendaftaran baru warga RT 003"
+            description="Berikan kritik dan saran untuk kami"
             onPress={() => router.push("/kritik-saran")}
           />
           <Cards
             title="Tentang Aplikasi"
-            description="Formulir untuk pendaftaran baru warga RT 003"
+            description="Informasi mengenai aplikasi PDW"
             onPress={() => router.push("/about")}
           />
         </View>
