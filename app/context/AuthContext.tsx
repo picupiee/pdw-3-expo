@@ -73,6 +73,7 @@ export function AuthProvider({ children }: AuthProviderProps) {
 
   const signOut = () => {
     setUser(null);
+    router.replace("/");
   };
 
   return (
