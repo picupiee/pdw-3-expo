@@ -1,9 +1,11 @@
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import { Slot, Stack, Tabs } from "expo-router";
+import { Tabs } from "expo-router";
+import { TabList, TabSlot, TabTrigger } from "expo-router/ui";
+import { Text, View } from "react-native";
 
 export default function Layout() {
   return (
-    <Tabs screenOptions={{ headerShown: false }}>
+    <Tabs screenOptions={{ tabBarAllowFontScaling: true, headerShown: false }}>
       <Tabs.Screen
         name="index"
         options={{
@@ -31,6 +33,18 @@ export default function Layout() {
           ),
         }}
       />
+      {/* <TabSlot />
+      <TabList className="flex items-center justify-center gap-4 p-8">
+        <TabTrigger name="index" href="/(app)/dashboard" className="font-bold">
+          <Text>Home</Text>
+        </TabTrigger>
+        <TabTrigger name="inbox" href="/(app)/dashboard/inbox">
+          <Text>Inbox</Text>
+        </TabTrigger>
+        <TabTrigger name="settings" href="/(app)/dashboard/settings">
+          <Text>Settings</Text>
+        </TabTrigger>
+      </TabList> */}
     </Tabs>
   );
 }
