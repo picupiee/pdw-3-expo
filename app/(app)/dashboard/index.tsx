@@ -1,6 +1,8 @@
-import { Text, View } from "react-native";
+import { Text, View, ActivityIndicator } from "react-native";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { Link } from "expo-router";
+import { useEffect, useState } from "react";
+import { useAuth } from "@/app/context/AuthContext";
 
 export default function Index() {
   return (
